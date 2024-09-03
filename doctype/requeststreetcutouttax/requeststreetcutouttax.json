@@ -1,0 +1,224 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-07-28 17:45:07.076660",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "user_info_requeststreetcutouttax",
+  "user_name_requeststreetcutouttax",
+  "column_break_icju",
+  "streetcutout_info_requeststreetcutouttax",
+  "streetcutout_count_requeststreetcutouttax",
+  "streetcutout_size",
+  "streetcutout_img",
+  "streetcutout_location_requeststreetcutouttax",
+  "streetcutout_location",
+  "status_tab",
+  "approve_status_requeststreetcutouttax",
+  "section_break_osur",
+  "expiration_date_requeststreetcutouttax",
+  "payment_tab",
+  "section_break_tsyd",
+  "cost_requeststreetcutouttax",
+  "payment_requeststreetcutouttax",
+  "qrcode_tab",
+  "qrcode",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "user_name_requeststreetcutouttax",
+   "fieldtype": "Data",
+   "label": "\u0e0a\u0e37\u0e48\u0e2d\u0e40\u0e08\u0e49\u0e32\u0e02\u0e2d\u0e07\u0e1b\u0e49\u0e32\u0e22",
+   "not_nullable": 1
+  },
+  {
+   "fieldname": "column_break_icju",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "user_info_requeststreetcutouttax",
+   "fieldtype": "Section Break",
+   "label": "\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25\u0e40\u0e08\u0e49\u0e32\u0e02\u0e2d\u0e07\u0e1b\u0e49\u0e32\u0e22"
+  },
+  {
+   "fieldname": "streetcutout_info_requeststreetcutouttax",
+   "fieldtype": "Section Break",
+   "label": "\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25\u0e1b\u0e49\u0e32\u0e22"
+  },
+  {
+   "fieldname": "streetcutout_count_requeststreetcutouttax",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "\u0e08\u0e33\u0e19\u0e27\u0e19\u0e1b\u0e49\u0e32\u0e22",
+   "not_nullable": 1,
+   "reqd": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "qrcode_tab",
+   "fieldtype": "Tab Break",
+   "label": "Qrcode"
+  },
+  {
+   "fieldname": "qrcode",
+   "fieldtype": "Image",
+   "label": "Qrcode"
+  },
+  {
+   "fieldname": "payment_tab",
+   "fieldtype": "Tab Break",
+   "label": "Payment",
+   "search_index": 1
+  },
+  {
+   "fieldname": "payment_requeststreetcutouttax",
+   "fieldtype": "Attach Image",
+   "label": "\u0e40\u0e40\u0e19\u0e1a\u0e2b\u0e25\u0e31\u0e01\u0e10\u0e32\u0e19\u0e01\u0e32\u0e23\u0e0a\u0e33\u0e23\u0e30\u0e40\u0e07\u0e34\u0e19"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "RequestStreetcutoutTax",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "streetcutout_location_requeststreetcutouttax",
+   "fieldtype": "Section Break",
+   "label": "\u0e2a\u0e16\u0e32\u0e19\u0e17\u0e35\u0e48\u0e15\u0e31\u0e49\u0e07\u0e1b\u0e49\u0e32\u0e22"
+  },
+  {
+   "fieldname": "status_tab",
+   "fieldtype": "Tab Break",
+   "label": "Status"
+  },
+  {
+   "fieldname": "approve_status_requeststreetcutouttax",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "\u0e2a\u0e16\u0e32\u0e19\u0e30\u0e01\u0e32\u0e23\u0e02\u0e2d\u0e2d\u0e19\u0e38\u0e21\u0e31\u0e15\u0e34",
+   "options": "\u0e2a\u0e23\u0e49\u0e32\u0e07\n\u0e23\u0e30\u0e2b\u0e27\u0e48\u0e32\u0e07\u0e01\u0e32\u0e23\u0e1e\u0e34\u0e08\u0e32\u0e23\u0e13\u0e32\n\u0e23\u0e2d\u0e0a\u0e33\u0e23\u0e30\u0e40\u0e07\u0e34\u0e19\n\u0e23\u0e30\u0e2b\u0e27\u0e48\u0e32\u0e07\u0e01\u0e32\u0e23\u0e15\u0e23\u0e27\u0e08\u0e2a\u0e2d\u0e1a\n\u0e23\u0e2d\u0e2d\u0e19\u0e38\u0e21\u0e31\u0e15\u0e34\n\u0e2d\u0e19\u0e38\u0e21\u0e31\u0e15\u0e34\n\u0e22\u0e01\u0e40\u0e25\u0e34\u0e01\n\u0e2b\u0e21\u0e14\u0e2d\u0e32\u0e22\u0e38",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_osur",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "expiration_date_requeststreetcutouttax",
+   "fieldtype": "Date",
+   "label": "\u0e27\u0e31\u0e19\u0e2b\u0e21\u0e14\u0e2d\u0e32\u0e22\u0e38"
+  },
+  {
+   "fieldname": "section_break_tsyd",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "cost_requeststreetcutouttax",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "\u0e23\u0e32\u0e04\u0e32"
+  },
+  {
+   "fieldname": "streetcutout_size",
+   "fieldtype": "Select",
+   "label": "\u0e02\u0e19\u0e32\u0e14\u0e02\u0e2d\u0e07\u0e1b\u0e49\u0e32\u0e22",
+   "options": "120x240 \u0e40\u0e0b\u0e19\u0e15\u0e34\u0e40\u0e21\u0e15\u0e23",
+   "reqd": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "streetcutout_location",
+   "fieldtype": "Table MultiSelect",
+   "label": "\u0e16\u0e19\u0e19",
+   "options": "StreetcutoutLocation",
+   "reqd": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "streetcutout_img",
+   "fieldtype": "Attach Image",
+   "label": "\u0e23\u0e39\u0e1b\u0e15\u0e31\u0e27\u0e2d\u0e22\u0e48\u0e32\u0e07\u0e1b\u0e49\u0e32\u0e22",
+   "reqd": 1,
+   "search_index": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-08-29 20:40:21.077777",
+ "modified_by": "Administrator",
+ "module": "maechan_streetcutout",
+ "name": "RequestStreetcutoutTax",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Thedsaban Mayor",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Thedsaban Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "All",
+   "select": 1,
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Thedsaban User",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

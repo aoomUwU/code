@@ -1,0 +1,47 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-08-10 16:28:16.074512",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "street_allowedstreet_streetcutout"
+ ],
+ "fields": [
+  {
+   "fieldname": "street_allowedstreet_streetcutout",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "\u0e16\u0e19\u0e19",
+   "reqd": 1,
+   "unique": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-08-29 21:02:48.981075",
+ "modified_by": "Administrator",
+ "module": "maechan_streetcutout",
+ "name": "AllowedStreet",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "search_fields": "street_allowedstreet_streetcutout",
+ "show_title_field_in_link": 1,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "street_allowedstreet_streetcutout"
+}
